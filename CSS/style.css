@@ -4,8 +4,8 @@
 /* Roots */
 
 :root {
-  --main-color: #079992;
-  --co-main-color: #3c6382;
+  --main-color: white;
+  --co-main-color: white;
   --white-alpha-40: rgba(255, 255, 255, 0.4);
   --white-alpha-25: rgba(255, 255, 255, 0.25);
   --backdrop-filter-blur: blur(5px);
@@ -60,7 +60,7 @@ body::before{
   top: 0;
   height: 100%;
   width: 100%;
-  background-color: var(--main-color);
+  /* background-color: var(--main-color); */
   z-index: -1;
   opacity: .12;
 }
@@ -79,7 +79,7 @@ h3 , h4 , h5 , h6 {
 
 img{
   max-width: 100%;
-  vertical-align: middle;
+  /* vertical-align: middle; */
 }
 
 ul{
@@ -203,7 +203,7 @@ button {
 
 
 /*-----------------
-      Theme Swich
+      Theme Switch
 ------------------*/
 .theme-switch-wrapper {
   display: flex;
