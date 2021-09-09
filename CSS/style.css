@@ -15,18 +15,17 @@
 [data-theme="dark"] {
   --main-color: #60a3bc;
   --co-main-color: #0a3d62;
-  --text:#6a89cc;
+  --text: white;
   --white-alpha-40: rgba(255, 255, 255, 0.4);
   --white-alpha-25: rgba(255, 255, 255, 0.25);
   --backdrop-filter-blur: blur(5px);
 }
 
-
 /*-----------------
        Main styles
 ------------------*/
 
-*{
+* {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -38,23 +37,26 @@
   box-sizing: border-box;
 }
 
-body{
+body {
   min-height: 100vh;
   background-image: url(/img/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   font-size: 16px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 300;
   color: var(--text);
   line-height: 1.5;
   padding: 35px 15px;
 }
 
-body.hide__scrolling{
+body.hide__scrolling {
   overflow-y: hidden;
-} 
+}
 
-body::before{
-  content: '';
+body::before {
+  content: "";
   position: fixed;
   left: 0;
   top: 0;
@@ -62,32 +64,35 @@ body::before{
   width: 100%;
   /* background-color: var(--main-color); */
   z-index: -1;
-  opacity: .12;
+  opacity: 0.12;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-h1 , h2{
+h1,
+h2 {
   font-weight: 600;
 }
 
-h3 , h4 , h5 , h6 {
+h3,
+h4,
+h5,
+h6 {
   font-weight: 500;
 }
 
-img{
+img {
   max-width: 100%;
   /* vertical-align: middle; */
 }
 
-ul{
+ul {
   list-style: none;
 }
 
-
-label{
+label {
   position: relative;
   margin: 5px 0;
   cursor: pointer;
@@ -104,52 +109,51 @@ section {
 
 section.active {
   display: block;
-  animation: fadeIn .5s ease-in-out forwards;
+  animation: fadeIn 0.5s ease-in-out forwards;
 }
 
-section.fade__out{
-  animation: fadeOut .5s ease-in-out forwards;
+section.fade__out {
+  animation: fadeOut 0.5s ease-in-out forwards;
 }
 
 .main {
   max-width: 1200px;
   margin: auto;
-  transition: all .5s  ease-in-out;
+  transition: all 0.5s ease-in-out;
   position: relative;
 }
 
-.main.fade__out{
+.main.fade__out {
   opacity: 0;
 }
 
-.container{
+.container {
   padding: 0 40px;
   width: 100%;
 }
 
-.row{
+.row {
   display: flex;
   flex-wrap: wrap;
 }
 
-.align-items-center{
+.align-items-center {
   align-items: center;
 }
 
-.hidden{
+.hidden {
   display: none !important;
 }
 
-.sec__padding{
+.sec__padding {
   padding: 80px 0;
 }
 
-.flex__between{
+.flex__between {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-
 
 /*-----------------
        buttons
@@ -200,7 +204,6 @@ button {
 .btn:hover {
   color: white;
 }
-
 
 /*-----------------
       Theme Switch
@@ -263,31 +266,31 @@ input:checked + .slider:before {
         Header
 -------------------*/
 
-nav{
+nav {
   padding: 1rem;
-  background-color:rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.4);
   border-radius: 25px;
   width: 95%;
   justify-content: space-between;
-  transition: all .4s ease;
+  transition: all 0.4s ease;
 }
 
-nav ul{
+nav ul {
   display: flex;
 }
 
-nav ul .list-item a{
+nav ul .list-item a {
   font-size: 1.2rem;
-  padding: .5rem;
+  padding: 0.5rem;
   color: white;
-  transition: all .4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
-nav ul .list-item a:hover{
+nav ul .list-item a:hover {
   color: var(--main-color);
 }
 
-.logo-nav img{
+.logo-nav img {
   width: 80px;
   height: 80px;
 }
@@ -348,4 +351,15 @@ nav ul .list-item a:hover{
 
 .nav-menu.open .menu-btn-burger::after {
   transform: rotate(-45deg);
+}
+
+/*--------------
+     Home
+--------------- */
+
+.home {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
 }
