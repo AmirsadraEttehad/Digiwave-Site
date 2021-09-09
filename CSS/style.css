@@ -363,3 +363,8 @@ nav ul .list-item a:hover {
   justify-content: center;
   align-content: center;
 }
+
+.home .profile .profile-img {
+  width: 30%;
+  height: 30%;
+}
