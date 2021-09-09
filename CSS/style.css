@@ -40,7 +40,7 @@
 
 body{
   min-height: 100vh;
-  background-image: linear-gradient( to bottom right , var(--main-color) , var(--co-main-color));
+  background-image: url(/img/background.jpg);
   font-size: 16px;
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
@@ -99,7 +99,7 @@ section {
   min-height: calc(100vh - 70px);
   border-radius: 30px;
   backdrop-filter: var(--backdrop-filter-blur);
-  display: none;
+  /* display: none; */
 }
 
 section.active {
