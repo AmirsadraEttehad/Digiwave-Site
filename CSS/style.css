@@ -4,7 +4,7 @@
 /* Roots */
 
 :root {
-  --main-color: rgb(140 , 140 , 140);
+  --main-color: rgb(140, 140, 140);
   --co-main-color: rgb(140, 140, 140);
   --text: white;
   --white-alpha-40: rgba(0, 0, 0, 0.4);
@@ -362,26 +362,22 @@ nav ul .list-item a:hover {
 --------------- */
 
 /* section { */
-  /* display: flex; */
-  /* flex-direction: row; */
-  /* justify-content: center; */
-  /* align-content: center; */
+/* display: flex; */
+/* flex-direction: row; */
+/* justify-content: center; */
+/* align-content: center; */
 /* } */
 
 .home {
   display: flex;
   justify-content: center;
+  align-content: center;
+  height: 75vh;
+
 }
 
-.home-profile{
+.home-profile {
   display: flex;
-  /* align-content: center; */
-  /* align-self: center; */
-  align-items: center;
-}
-
-.home-content{
-  /* display: flex; */
 }
 
 .home .home-profile .profile-img {
@@ -389,8 +385,6 @@ nav ul .list-item a:hover {
   height: auto;
 }
 
-.home .home-content p{
+.home .home-content p {
   width: 30rem;
 }
-
-
