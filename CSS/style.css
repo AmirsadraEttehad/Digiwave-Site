@@ -361,11 +361,27 @@ nav ul .list-item a:hover {
      Home
 --------------- */
 
-section {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+/* section { */
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* justify-content: center; */
   /* align-content: center; */
+/* } */
+
+.home {
+  display: flex;
+  justify-content: center;
+}
+
+.home-profile{
+  display: flex;
+  /* align-content: center; */
+  /* align-self: center; */
+  align-items: center;
+}
+
+.home-content{
+  /* display: flex; */
 }
 
 .home .home-profile .profile-img {
