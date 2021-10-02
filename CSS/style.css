@@ -1,6 +1,6 @@
 /* Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,200&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
 /* Roots */
 
 :root {
@@ -303,7 +303,7 @@ nav ul .list-item a:hover {
 }
 
 .logo-nav h1 {
-  font-family: 'Inconsolata', monospace;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 1.5rem;
 }
 /*-----------------
@@ -492,8 +492,8 @@ nav ul .list-item a:hover {
   }
 
   .logo-nav h1 {
-    font-family: 'Inconsolata', monospace;
-    font-size: 1.2rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1rem;
   }
   nav {
     padding: 1rem;
