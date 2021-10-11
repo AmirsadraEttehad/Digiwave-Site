@@ -415,9 +415,9 @@ nav ul .list-item a:hover {
   font-size: 1.2rem;
 }
 
-/* --------------
-      Medias
----------------- */
+/* ------------------
+      Media Queries
+--------------------- */
 @media (max-width: 768px) {
   .home .home-profile .profile-img {
     width: 250px;

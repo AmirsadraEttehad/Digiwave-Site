@@ -1,4 +1,4 @@
-// --------------------------- variables --------------------------------//
+// --------------------------- variables ------------------------------//
 
 let navbar = document.querySelector(".navbar");
 let navMenu = document.querySelector(".nav-menu");
@@ -10,7 +10,7 @@ const currentTheme = localStorage.getItem("theme");
 
 navMenu.addEventListener("click", navToggleButton);
 
-// --------------------------- Menu --------------------------------//
+// --------------------------- Menu ----------------------------------//
 
 function navToggleButton(e) {
   e.stopPropagation();
