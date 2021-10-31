@@ -42,7 +42,7 @@
 
 body {
   min-height: 100vh;
-  background-image: url(./.img/background-1.jpg);
+  background-image: url(/img/background-1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -241,9 +241,9 @@ button {
 }
 
 .slider:before {
-  background-color: var(--main-color);
-  bottom: 4px;
   content: "";
+  background-color: var(--main-color); 
+  bottom: 4px;
   height: 26px;
   left: 4px;
   position: absolute;
@@ -265,6 +265,23 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+}
+
+.Icon {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 9px;
+}
+
+.fa-moon{
+ color: #333;
+ z-index: 100;
+  
+}
+.fa-sun{
+  color: white;
+  z-index: 100;
 }
 
 /* ----------------
