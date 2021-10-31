@@ -10,7 +10,7 @@ const currentTheme = localStorage.getItem("theme");
 
 navMenu.addEventListener("click", navToggleButton);
 
-// --------------------------- Menu ----------------------------------//
+// ---------------------------- Menu ----------------------------------//
 
 function navToggleButton(e) {
   e.stopPropagation();

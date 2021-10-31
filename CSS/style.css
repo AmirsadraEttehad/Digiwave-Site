@@ -2,19 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,200&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
 /* Roots */
-
-@import url(/CSS/base64.css);
-
-/* Dark Mode */
-[data-theme="dark"] {
-  --main-color: white;
-  --co-main-color: white;
-  --text: white;
-  --white-alpha-40: rgba(255, 255, 255, 0.4);
-  --white-alpha-25: rgba(255, 255, 255, 0.25);
-  --backdrop-filter-blur: blur(5px);
-  --btn-hover: #333;
-}
+@import url(/CSS/roots.css);
 
 /*-----------------
        Main styles
