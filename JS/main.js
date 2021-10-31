@@ -2,6 +2,7 @@
 
 let navbar = document.querySelector(".navbar");
 let navMenu = document.querySelector(".nav-menu");
+let body  = document.querySelector("#body")
 let menuOpen = false;
 const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
 const currentTheme = localStorage.getItem("theme");
@@ -10,7 +11,7 @@ const currentTheme = localStorage.getItem("theme");
 
 navMenu.addEventListener("click", navToggleButton);
 
-// ---------------------------- Menu ----------------------------------//
+// --------------------------- Menu ----------------------------------//
 
 function navToggleButton(e) {
   e.stopPropagation();
@@ -46,6 +47,7 @@ function switchTheme(e) {
   if (e.target.checked) {
     document.documentElement.setAttribute("data-theme", "dark");
     localStorage.setItem("theme", "dark");
+    body.style.backgroundImage = "url(/img/background-2.jpg)"
   } else {
     document.documentElement.setAttribute("data-theme", "light");
     localStorage.setItem("theme", "light");
