@@ -48,11 +48,9 @@ function switchTheme(e) {
   if (e.target.checked) {
     document.documentElement.setAttribute("data-theme", "dark");
     localStorage.setItem("theme", "dark");
-    body.style.backgroundImage = "url(/img/background-2.jpg)"
   } else {
     document.documentElement.setAttribute("data-theme", "light");
     localStorage.setItem("theme", "light");
-    body.style.backgroundImage = "url(/img/background-1.jpg)"
   }
 }
 

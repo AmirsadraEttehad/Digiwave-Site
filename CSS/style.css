@@ -11,6 +11,7 @@
   --white-alpha-25: rgba(0, 0, 0, 0.25);
   --backdrop-filter-blur: blur(5px);
   --btn-hover: white;
+  --background:url(../img/background-1.jpg)
 }
 
 /* Dark Mode */
@@ -22,6 +23,7 @@
   --white-alpha-25: rgba(255, 255, 255, 0.25);
   --backdrop-filter-blur: blur(5px);
   --btn-hover: #333;
+  --background:url(../img/background-2.jpg)
 }
 
 /*-----------------
@@ -42,7 +44,7 @@
 
 body {
   min-height: 100vh;
-  background-image: url(/img/background-1.jpg);
+  background-image: url(../img/background-1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -66,7 +68,6 @@ body::before {
   top: 0;
   height: 100%;
   width: 100%;
-  /* background-color: var(--main-color); */
   z-index: -1;
   opacity: 0.12;
 }
@@ -89,7 +90,6 @@ h6 {
 
 img {
   max-width: 100%;
-  /* vertical-align: middle; */
 }
 
 ul {
@@ -109,7 +109,6 @@ section {
   margin-top: 20px;
   border-radius: 30px;
   backdrop-filter: var(--backdrop-filter-blur);
-  /* display: none; */
 }
 
 section.active {
