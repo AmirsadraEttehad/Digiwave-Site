@@ -492,7 +492,7 @@ nav ul .list-item a:hover {
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 500px) {
   .container {
     padding: 0;
     width: 100%;
